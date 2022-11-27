@@ -5,7 +5,7 @@ import "@aws-amplify/ui-react/styles.css";
 import { Amplify, API } from "aws-amplify";
 import axios from "axios";
 import Header from "./Header";
-import StartupPrediction from "./StartupPrediction";
+import StartupPrediction from "./PredictionForm";
 
 Amplify.configure({
   API: {

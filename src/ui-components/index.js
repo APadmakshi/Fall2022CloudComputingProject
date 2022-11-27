@@ -5,4 +5,4 @@
  **************************************************************************/
 
 export { default as studioTheme } from "./studioTheme";
-export { default as StartupPrediction } from "./StartupPrediction";
+export { default as PredictionForm } from "./PredictionForm";
