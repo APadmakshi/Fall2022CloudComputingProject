@@ -11,7 +11,7 @@ Amplify.configure({
   API: {
     endpoints: [
       {
-        name: "DEMO-linear-endpoint-202211201910",
+        name: "DEMO-linear-endpoint-202211280003",
         endpoint: "https://fvtenk5mii.execute-api.us-east-2.amazonaws.com",
       },
     ],
@@ -70,7 +70,7 @@ function CallsToAPI(feilds) {
     }
   });
   str = str.substring(0, str.length - 1);
-  let obj1 = { data: str, emailid: email };
+  let obj1 = { data: str, email: email };
   console.log(obj1);
   const jobj = JSON.stringify(obj1);
   console.log(jobj);
